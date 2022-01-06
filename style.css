@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+#stay-focused {
+  display: flex;
+  margin: 80px;
+  height: 600px;
+}
+.half-width {
+  width: 40%;
+  padding-left: 50px;
+}
+#heading-pic {
+  padding-left: 15%;
+}
+.half-width img {
+  width: 80%;
+}
+h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 50px;
+  padding-left: 10px;
+}
+.orange {
+  color: orange;
+}
+.link-button {
+  color: rgb(240, 237, 231);
+  text-decoration: none;
+  padding: 15px 50px;
+  background-color: tomato;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+p {
+  font-size: 17px;
+  word-spacing: 2px;
+  line-height: 30px;
+}
+#small {
+  font-size: 14px;
+  margin-top: 30px;
+}
+#heading {
+  border-left: 5px solid tomato;
+  height: 165px;
+  margin-bottom: 50px;
+}
+h2 {
+  font-size: 45px;
+}
+#second-heading {
+  text-align: center;
+  margin: auto;
+}
+span {
+  color: orangered;
+}
+.mission-vission-goal {
+  display: flex;
+  margin: 40px 100px;
+  box-sizing: border-box;
+}
+.color-div {
+  width: 30%;
+  padding: 25px;
+  box-sizing: border-box;
+  margin: 30px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.color-div img {
+  height: 120px;
+  width: 130px;
+}
+.mission {
+  background-color: #edf5f6;
+}
+.vission {
+  background-color: #ffeeee;
+}
+.goals {
+  background-color: #fff4d6;
+}
+.develop {
+  display: flex;
+  margin: 100px;
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 280px;
+}
+.third {
+  padding: 20px;
+}
+.third-pic {
+  width: 30%;
+  height: 350px;
+}
+.third-pic img {
+  width: 100%;
+}
+.third-para {
+  width: 60%;
+  margin-top: 50px;
+  padding-left: 60px;
+}
+.g-community {
+  background-position: right;
+}
+footer {
+  margin-top: 100px;
+  padding: 10px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+footer p {
+  font-weight: 300;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.v_align_center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.contact p {
+  padding-bottom: 30px;
+}
+#contact {
+  padding: 60px;
+}
+.contact {
+  height: 500px;
+  width: 1300px;
+}
+
+.form {
+  height: auto;
+  width: 1300px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 6px 18px;
+  font-size: 1rem;
+  color: rgb(59, 57, 56);
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.input {
+  text-rendering: auto;
+  text-align: start;
+  appearance: textfield;
+  margin: 0;
+}
+
+.f-form,
+.s-form,
+.t-form {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.name,
+.mobile,
+.email,
+.address {
+  float: left;
+  height: 40px;
+  width: 545px;
+}
+.name,
+.mobile {
+  margin-right: 20px;
+}
+.email,
+.address {
+  margin-left: 20px;
+}
+.submit {
+  margin: 0 auto;
+  width: 150px;
+  padding: 20px;
+}
+
+.submit button {
+  padding: 20px;
+  height: 50px;
+  font-size: 18px;
+  width: 150px;
+  background: tomato;
+  padding: 10px 40px;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  border-radius: 50px;
+}
