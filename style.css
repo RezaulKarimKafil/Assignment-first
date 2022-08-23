@@ -5,7 +5,7 @@ body {
 }
 #stay-focused {
   display: flex;
-  margin: 80px;
+  margin: 80px; 
   height: 600px;
 }
 .half-width {
